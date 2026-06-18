@@ -40,7 +40,7 @@ uttarakhand-tourism/
 
 ## 📸 Screenshots
 
-Add screenshots of your website here.
+![demo.png](demo.png)
 
 ## Future Improvements
 
