@@ -3,7 +3,7 @@
 A tourism website showcasing the beauty, culture, spirituality, and popular destinations of Uttarakhand. Built using HTML and CSS as part of my web development learning journey.
 
 ## 🔗 Live Demo
-**[View Website](https://amritasoni-dev.github.io/uttarakhand-tourism/home.html)**
+**[View Website](https://amritasoni-dev.github.io/uttarakhand-tourism/)**
 
 ## 📸 Screenshots
 
