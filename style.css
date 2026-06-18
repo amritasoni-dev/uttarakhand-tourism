@@ -1,0 +1,394 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+header{
+    height: 300px;
+    width: 100%;
+    background-image: url(https://www.peakadventuretour.com/assets/imgs/uttarakhand-tourism-06.webp);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 4px solid black;
+}
+h1{
+    font-size: 100px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+    color: rgb(245, 243, 243) ;
+    margin: 0;
+}
+#comment{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    color: rgb(245, 243, 243);
+    font-size: 40px;
+}
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color: pink;
+    margin: 0%;
+    padding: 0%;
+    border: 2px solid palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+h4{
+    margin-right: 25px;
+    font-size: 20px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: darkred;
+}
+#Highlights{
+    height: 400px;
+    width: 100%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1780578687666-bc1d8c8c73aa?q=80&w=1382&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.Boxes{
+    height: 300px;
+    width: 200px;
+    background-color: beige;
+    border: 6px solid rgb(12, 12, 12);
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+.Boxes:hover{
+    height: 350px;
+    width: 250px;
+}
+#nature{
+    background-image: url(https://images.unsplash.com/photo-1780380069585-4703916d9ea4?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#wildlife{
+    background-image: url(https://images.unsplash.com/photo-1533028835287-0fd8250d59da?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#mountains{
+    background-image: url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?q=80&w=1503&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#waterfall{
+    background-image: url(https://images.unsplash.com/photo-1546882588-d9bd63f85a7e?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#food{
+    background-image: url(https://images.unsplash.com/photo-1628410040883-c412c8d9a0f9?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    background-color: orange;
+}
+.about{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1650342518618-fdeaae0ef4f0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    font-style: italic;
+    color: floralwhite;
+    margin-top: 20px;
+    padding: 0%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    border: 2px solid black;
+}
+#text1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+#text2{
+    font-size: 20px;
+    text-align: center;
+}
+#text3{
+    font-size: 20px;
+    text-align: left;
+}
+#facts{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?q=80&w=404&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-shadow: none;
+}
+#heading{
+    color: black;
+    font: 40px bold;
+    text-align: center;
+    background-color: darksalmon;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(226, 204, 6);
+    text-align: center;
+    transition-duration: 0.3s;
+    margin-right: 20px;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+#mainHeading{
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+#content{
+    text-align: left;
+    color: rgb(3, 78, 50);
+    font-size: 20px;
+}
+#head2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(15, 15, 15);
+    background-color: rgb(197, 218, 13);
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Destinations{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1682687982183-c2937a74257c?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.dest{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    margin-right: 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: gold;
+    transition-duration: 0.5s;
+    background-size: cover;
+    cursor: pointer;
+}
+.dest:hover{
+    transform: translateY(-10px);
+    height: 350px;
+    width: 350px;
+}
+#d1{
+    background-image: url(https://images.unsplash.com/photo-1712201649803-ab1b13dae600?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+}
+#d2{
+    background-image: url(https://images.unsplash.com/photo-1724432799555-6414c4a669b9?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+}
+#d3{
+    background-image: url(https://plus.unsplash.com/premium_photo-1661902094482-8844637b400e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+}
+#d4{
+    background-image: url(https://images.unsplash.com/photo-1623727705498-51a6a4154384?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#d5{
+    background-image: url(https://images.unsplash.com/photo-1695272811289-8a44997be013?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#d6{
+    background-image: url(https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#head3{
+    font-size: 40px ;
+    font-weight: bold;
+    text-decoration: underline;
+    color: yellow;
+    background-color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#yatra{
+    display: flex;
+    align-items: flex-start;
+    background-image: url(https://images.unsplash.com/photo-1520931546307-9b4ae35551d8?q=80&w=1535&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+.cont1, .cont2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.photo{
+    height: 200px;
+    width: 300px;
+    border-radius: 5%;
+    border: 8px solid #000;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+.photo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 153, 51, 0.5),
+                0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 9px solid #000;
+}
+#photo1{
+    background-image: url(https://images.unsplash.com/photo-1612438214708-f428a707dd4e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#photo2{
+    background-image: url(https://uttarakhandtourism.gov.in/assets/media/UTDB_media_logo1746694873Untitled-design-53.jpg);
+}
+#photo3{
+    background-image: url(https://www.chardham-pilgrimage-tour.com/assets/images/shri-badrinath-dham-temple_01.webp);
+}
+#photo4{
+    background-image: url(https://discover-uttarakhand.com/wp-content/uploads/2026/03/gangotri-temple.webp);
+}
+.cont2{
+    margin-left: 100px;
+}
+.text{
+    height: 200px;
+    width: 700px;
+    border: 8px solid #FF9933;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    background-color: #FFF8E1;
+}
+#title{
+    color: black;
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+}
+#matter{
+    text-align: left;
+    color: #3E2723;
+    font-style: italic;
+    padding: 10px;
+    font-size: 15px;
+    text-shadow: none;
+}
+.uk-footer {
+  background: linear-gradient(180deg, #1A1A1A 0%, #000000 100%);
+  color: #e0e0e0;
+  font-family: 'Arial', sans-serif;
+  padding: 40px 0 0;
+  margin-top: 50px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3, .footer-section h4 {
+  color: #ffcb05;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ffcb05;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #ffcb05;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background: #081f33;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: #ffcb05;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-section h3, .footer-section h4 {
+    border-bottom: none;
+  }
+}
