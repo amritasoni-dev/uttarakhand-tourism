@@ -2,7 +2,14 @@
 
 A tourism website showcasing the beauty, culture, spirituality, and popular destinations of Uttarakhand. Built using HTML and CSS as part of my web development learning journey.
 
-## ✨ Features
+## 🔗 Live Demo
+**[View Website](https://amritasoni-dev.github.io/uttarakhand-tourism/home.html)**
+
+## 📸 Screenshots
+
+![demo.png](demo.png)
+
+### ✨ Features
 
 * Hero section with Uttarakhand theme
 * Explore Uttarakhand section
@@ -37,11 +44,7 @@ uttarakhand-tourism/
 1. Download or clone the repository.
 2. Open the project folder.
 3. Open `home.html` in your browser.
-
-## 📸 Screenshots
-
-![demo.png](demo.png)
-
+   
 ## Future Improvements
 
 - Add dark mode
